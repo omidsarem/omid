@@ -1,0 +1,37 @@
+/*-------------- RESET STYLE ------------------ */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	background: transparent;
+}
+ol, ul {
+	list-style: none;
+}
+ /*-------------- RESET STYLE ------------------ */
+*{box-sizing: border-box;text-decoration: none}
+#fix{width: 100%;float: right;background-color:#2498eb;height: 75px;position:absolute;}
+#fix h3{text-align: center;font-size: 15pt;font-family: cursive;}
+#fix h3:hover{color: aliceblue;}
+#ul{list-style-type: none;text-decoration: none;float: right;}
+#ul li{float: right;display: inline;margin: 10px;width: 100px;color:black;font-size: 15pt}
+#ul li a{color: aliceblue}
+#ul2{list-style-type: none;text-decoration: underline;float: left}
+#ul2 li{float: left;display: inline;margin: 10px;width: 125px;font-size: 15pt;}
+#ul2 li a{color: aliceblue}
+#ul li a:hover{font-size: 16pt;color: #20f7d6}
+#ul2 li a:hover{font-size: 16pt;color: #20f7d6}
+#content{width: 100%;height: 100%;background-color: aqua;background: url(11.jpg);background-repeat: no-repeat;}
+#right{width: 600px;height: 630px;background-color: white;float: left;position:absolute;top:90px;left: 890px;border: solid 3px #e4cdcd;overflow: scroll;box-shadow: 4px 4px 4px #e4cdcd;resize: both}
+#footer{width: 100%;height: 35px;background-color:#2498eb;clear: both;}
+#footer h3{color: aliceblue;text-align:center;font-size: 10pt}
+#footer h2{color: aliceblue;text-align: center;font-size: 10pt;font-style: italic}
