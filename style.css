@@ -1,0 +1,65 @@
+/*-------------- RESET STYLE ------------------ */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	background: transparent;
+}
+ol, ul {
+	list-style: none;
+}
+ /*-------------- RESET STYLE ------------------ */
+*{box-sizing: border-box;text-decoration: none}
+#fix{width: 100%;float: right;background-color:#2498eb;height: 75px;position:absolute;}
+#fix h3{text-align: center;font-size: 15pt;font-family: cursive;}
+#fix h3:hover{color: aliceblue;}
+#ul{list-style-type: none;text-decoration: none;float: right;}
+#ul li{float: right;display: inline;margin: 10px;width: 100px;color:black;font-size: 15pt}
+#ul li a{color: aliceblue}
+#ul2{list-style-type: none;text-decoration: underline;float: left}
+#ul2 li{float: left;display: inline;margin: 10px;width: 125px;font-size: 15pt;}
+#ul2 li a{color: aliceblue}
+#ul li a:hover{font-size: 16pt;color: #20f7d6}
+#ul2 li a:hover{font-size: 16pt;color: #20f7d6}
+#content{width: 100%;height: 100%;background-color: aqua;background: url(11.jpg);background-repeat: no-repeat;}
+/*
+#footer{width: 100%;height: 35px;clear: both;background-color:#1a1199;}
+#footer h3{color: aliceblue;text-align:right;font-family:cursive;border: solid 2px #929198;}
+#footer h2{color: aliceblue;text-align:left top;position: relative;top: -30px}
+*/
+#content #d1{width: 280px;height: 280px;background-color: aqua;float: right;position:absolute;top: 390px;border: solid 2px #929198;border-radius: 10px;background: url(Capture.png) no-repeat center;box-shadow: 9px 7px 7px #ece3e3}
+#content #d2{width: 280px;height: 280px;background-color: aqua;float: right;position:absolute;top: 690px;border: solid 2px #929198;border-radius: 10px;background: url(R.jpg) no-repeat center;box-shadow: 9px 7px 7px #ece3e3}
+#content #d3{width: 280px;height: 280px;background-color: aqua;float: right;position:absolute;top: 690px;left: 300px; border: solid 2px #929198;border-radius: 10px;box-shadow: 9px 7px 7px #ece3e3}
+#content #d4{width: 280px;height: 280px;background-color: aqua;float: right;position:absolute;top: 390px;left: 300px; border: solid 2px #929198;border-radius: 10px;box-shadow: 9px 7px 7px #ece3e3}
+#content #d5{width: 280px;height: 280px;background-color: aqua;float: right;position:absolute;top: 390px;left: 600px; border: solid 2px #929198;border-radius: 10px;box-shadow: 9px 7px 7px #ece3e3}
+#content #d6{width: 280px;height: 280px;background-color: aqua;float: right;position:absolute;top: 690px;left: 600px; border: solid 2px #929198;border-radius: 10px;box-shadow: 9px 7px 7px #ece3e3}
+#content #d7{width: 280px;height: 280px;background-color: aqua;float: right;position:absolute;top: 390px;left: 900px; border: solid 2px #929198;border-radius: 10px;box-shadow: 9px 7px 7px #ece3e3}
+#content #d8{width: 280px;height: 280px;background-color: aqua;float: right;position:absolute;top: 690px;left: 900px; border: solid 2px #929198;border-radius: 10px;box-shadow: 9px 7px 7px #ece3e3}
+#content #d9{width: 280px;height: 280px;background-color: aqua;float: right;position:absolute;top: 390px;left: 1200px; border: solid 2px #929198;border-radius: 10px;box-shadow: 9px 7px 7px #ece3e3}
+#content #d10{width: 280px;height: 280px;background-color: aqua;float: right;position:absolute;top: 690px;left: 1200px; border: solid 2px #929198;border-radius: 10px;box-shadow: 9px 7px 7px #ece3e3}  
+#content #d11{width: 260px;height: 260px;background-color: aqua;float: right;position:absolute;top: 80px;left: 1200px; border: solid 2px #929198;border-radius: 10px;border-radius: 130px;background: url(photo_2021-03-23_18-07-20.jpg) no-repeat center}
+#content #d1:hover{background-color: antiquewhite;width: 300px;height: 300px}
+#content #d2:hover{background-color: antiquewhite;width: 300px;height: 300px}
+#content #d3:hover{background-color: antiquewhite;width: 300px;height: 300px}
+#content #d4:hover{background-color: antiquewhite;width: 300px;height: 300px}
+#content #d5:hover{background-color: antiquewhite;width: 300px;height: 300px}
+#content #d6:hover{background-color: antiquewhite;width: 300px;height: 300px}
+#content #d7:hover{background-color: antiquewhite;width: 300px;height: 300px}
+#content #d8:hover{background-color: antiquewhite;width: 300px;height: 300px}
+#content #d9:hover{background-color: antiquewhite;width: 300px;height: 300px}
+#content #d10:hover{background-color: antiquewhite;width: 300px;height: 300px}
+#content #d11:hover{background-color: antiquewhite;width: 300px;height: 300px;transition: 5s}
+#content #d1 h3{color: aliceblue;text-align:right;position: relative;top: 250px;font-family:monospace;font-size: 15pt}
+#content #d11 h3{font-size: 13pt;position: absolute;top: 120px;left: -600px;font-style: italic;border-bottom: solid 2px #929198;color: aliceblue}
+#footer{width: 103%;height: 35px;background-color: #2498eb;clear: both;position: absolute;right: -22px}
+#footer h3{color: aliceblue;text-align:center;font-size: 10pt}
+#footer h2{color: aliceblue;text-align: center;font-size: 10pt;font-style: italic}
